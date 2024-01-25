@@ -1,9 +1,10 @@
 # %%
 import pandas as pd
 import pickle
+from sklearn.metrics.pairwise import cosine_similarity
 
 # %%
-data=pd.read_csv(r"..\SRC\Data\potential-talents - Aspiring human resources - seeking human resources.csv")
+data=pd.read_csv(r"../Data/potential-talents - Aspiring human resources - seeking human resources.csv")
 
 Data_SBert2=data.copy()
 
