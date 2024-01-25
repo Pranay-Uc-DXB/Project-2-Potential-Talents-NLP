@@ -32,7 +32,7 @@ def Sim_Score_Cal(df_with_embed,Query_embed):
     df_with_embed=df_with_embed.sort_values(by='sim_score',ascending=False)
     df_with_embed=df_with_embed.drop_duplicates(subset='job_title')
     df_with_embed=df_with_embed.reset_index().drop(['id','index'],axis=1)
-    df_with_embed=df_with_embed.drop('fit',axis=1)
+    
     return df_with_embed
 
 # %%
@@ -41,4 +41,19 @@ def Sim_Score_Cal(df_with_embed,Query_embed):
 SBert2_results=Sim_Score_Cal(Data_SBert2,Query_mean_pool)
 SBert2_results.iloc[:10]
 
+# %%
+from Train_model import Sum_New_keyword_embed
 
+with open('Reranker_algo_sum_method.pkl','rb') as file:
+    Sum_New_keyword_embed=pickle.load(file)
+
+# %%
+from Train_model import Reranker
+
+with open('Reranker_func.pkl','rb') as file:
+    Reranker=pickle.load(file)
+
+
+# %%
+Query= "Aspiring Human Resources"
+Reranker(2,Query, SBert2_results,Sum_New_keyword_embed,10)        
