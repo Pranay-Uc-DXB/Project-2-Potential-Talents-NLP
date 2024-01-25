@@ -1,4 +1,5 @@
-This projects caters to Human Resources and Staffing Industry. 
+This project caters to Human Resources and Staffing Industry. 
+
 
 What business problem does the project aim to solve?
 
