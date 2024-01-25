@@ -55,5 +55,6 @@ with open('Reranker_func.pkl','rb') as file:
 
 
 # %%
+# Selecting/Starring Candidate with index 1 from the above results and re-ranking in conjunction with the below Query    
 Query= "Aspiring Human Resources"
-Reranker(2,Query, SBert2_results,Sum_New_keyword_embed,10)        
+Reranker(1,Query, SBert2_results,Sum_New_keyword_embed,10)        
