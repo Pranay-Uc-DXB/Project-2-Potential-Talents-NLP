@@ -2,7 +2,7 @@
 import pickle
 import torch
 import transformers
-from sklearn.metrics.pairwise import cosine_similarity
+
 
 # %%
 model_name= 'sentence-transformers/multi-qa-MiniLM-L6-cos-v1' 
