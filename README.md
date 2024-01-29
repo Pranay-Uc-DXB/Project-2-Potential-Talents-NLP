@@ -3,7 +3,7 @@ This project caters to Human Resources and Staffing Industry. A Talent sourcing 
 
 What business problem does the project aim to solve?
 
- The project aims to solve the business problem as follows:
+ The project aims to address and solve the following issues:
 - Spot top talent using ML's latest NLP algorithms and rank them based on their fit for the required role.
 - Enable the HR department to select candidates based on their preference from provided recommendations and refine the search further using the Re-ranking algorithm
 - Automate talent spotting process
