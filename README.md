@@ -1,6 +1,6 @@
 # Project 2 - Potential Talents
 
-This project caters to Human Resources and Staffing Industry. A Talent sourcing and management company wants to automate their hiring process for spotting potential candidates that could fit the role.
+This project caters to Human Resources and Staffing Industry. A Talent sourcing and management company wants to automate their hiring process and build a recommendation engine for spotting potential candidates that could fit the role.
 
 
 What business problem does the project aim to solve?
