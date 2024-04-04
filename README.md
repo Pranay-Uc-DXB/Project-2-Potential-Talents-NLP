@@ -11,3 +11,4 @@ What business problem does the project aim to solve?
 - Automate talent spotting process
 - Eliminate human bias from the hiring process
   
+https://github.com/Pranay-Uc-DXB/Project-2-Q6O5w5YaaeJOdoUH/assets/62109186/55bc727b-5c12-4349-8b13-b62784f46c60
