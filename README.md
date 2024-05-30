@@ -28,7 +28,7 @@ Below are the models that were used and tested to obtain similarity scores betwe
 https://github.com/Pranay-Uc-DXB/Project-2-Q6O5w5YaaeJOdoUH/assets/62109186/55bc727b-5c12-4349-8b13-b62784f46c60
 
 
-Similarity scores, obtained by using cosine similarity between user-defined vectors v/s closest vector available in raw data, were used to return similar text or job title results. From my analysis, I saw FastText and SBERT performed really well on the dataset. Because this project only catered to finding similar job titles, I would recommend using FastText. However, if the application needs to be extended in capturing semantic context on an entire resume then I would recommend using SBERT.
+Similarity scores, obtained by using cosine similarity between user-defined vectors v/s closest vector available in raw data, were used to return similar text or job title results. From my analysis, I saw FastText and SBERT performed really well on the dataset. There was 52 ppt improvement when compared to basemodels such TF-IDF and word-2-Vec models. Because this project only catered to finding similar job titles, I would recommend using FastText. However, if the application needs to be extended in capturing semantic context on an entire resume then I would recommend using SBERT.
 
 In my project, I used transformer-based, SBERT architecture, to not only obtain similarity scores, but to also use it as a part of search and reranking algorithm to fine-tune user-defined search for better recommendations. And as expected, by adding more context, our similarity scores improved quite considerably. Nevertheless, I used Streamlit to deploy my app for demo purposes. 
 
