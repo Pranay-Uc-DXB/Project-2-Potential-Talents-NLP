@@ -1,6 +1,6 @@
-## Project 2 - Potential Talents
+# Project 2 - Potential Talents
 
-# Introduction
+## Introduction
 This project caters to the Human Resources and Staffing Industry. A Talent sourcing and management company wants to automate their hiring process and build a recommendation engine for spotting potential candidates that could fit the role.
 
 What business problem does the project aim to solve?
@@ -11,7 +11,7 @@ What business problem does the project aim to solve?
 - Automate talent spotting process
 - Eliminate human bias from the hiring process
 
-# Methodology
+## Methodology
 In this project,various NLP models were tested from the basic, Bag-of-words model, to advanced transformer-based algorithms. I used couple of simple models to establish baseline performance to compare them with word-to-vector representing algorithms and transformer-based algorithms. 
 
 Below are the models that were used and tested to obtain similarity scores between user-defined positions and positions available in raw data:
@@ -24,7 +24,7 @@ Below are the models that were used and tested to obtain similarity scores betwe
 6) BERT
 7) SBERT
 
-# Conclusion  
+## Conclusion  
 https://github.com/Pranay-Uc-DXB/Project-2-Q6O5w5YaaeJOdoUH/assets/62109186/55bc727b-5c12-4349-8b13-b62784f46c60
 
 
