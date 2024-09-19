@@ -17,7 +17,7 @@ In this project,various NLP models were tested from the basic, Bag-of-words mode
 Below are the models that were used and tested to obtain similarity scores between user-defined positions and positions available in raw data:
 
 1) Bag of words
-2) TFF-IDF
+2) TF-IDF
 3) Word-2Vec
 4) FaastText
 5) GloVe
