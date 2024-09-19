@@ -19,7 +19,7 @@ Below are the models that were used and tested to obtain similarity scores betwe
 1) Bag of words
 2) TF-IDF
 3) Word-2Vec
-4) FaastText
+4) FastText
 5) GloVe
 6) BERT
 7) SBERT
